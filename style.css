@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+}
+
+.announce {
+  font-family: monospace;
+  font-size: 5vw;
+}
+
+.container-result {
+  font-family: monospace;
+  font-size: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+
+.container-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+}
+
+.restart-button {
+  font-family: monospace;
+  font-size: 2vw;
+  width: 40vw;
+  background-color: black;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-family: monospace;
+  font-size: 2vw;
+  width: 15vw;
+  height: 7vh;
+  border-radius: 10px;
+  border: 2px solid grey;
+  background-color: blanchedalmond;
+}
